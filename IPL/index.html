@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> RCB Fan Page</title>
+</head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" href="/Images/rcb_logo.png" type="image/x-icon">
+
+</head>
+
+<body>
+    
+    <header>
+        <img src="/Images/rcb_logo.png" alt="RCB">
+        <div class="navlink link">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="match.html">Matches</a></li>
+            <li><a href="players.html">Players</a></li>
+            <li><a href="statistics.html">Statistics</a></li>
+            <li><a href="news.html">News</a></li>
+        </div>
+        <div class="navicon">
+            <i class="fa-solid fa-bars" onclick="show()"></i>
+        </div>
+
+    </header>
+
+    <div class="side-nav" id="side-nav">
+        <p class="cancel">
+            <i class="fa-solid fa-xmark" onclick="cancel()"></i>
+        </p>
+
+
+        <div class="side-navlink link">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="match.html">Matches</a></li>
+            <li><a href="players.html">Players</a></li>
+            <li><a href="statistics.html">Statistics</a></li>
+            <li><a href="news.html">News</a></li>
+        </div>
+    </div>
+
+    <div class="slider">
+        <div class="slides">
+            <div class="slide"><img src="Images/Banner/image7.jpg" alt="Slide 1"></div>
+            <div class="slide"><img src="Images/Banner/image1.jpg6.jpg" alt="Slide 2"></div>
+            <div class="slide"><img src="Images/Banner/image3.jpg" alt="Slide 3"></div>
+            <div class="slide"><img src="Images/Banner/image4.jpg" alt="Slide 4"></div>
+            <div class="slide"><img src="Images/Banner/image5.jpg" alt="Slide 5"></div>
+            <div class="slide"><img src="Images/Banner/image1.jpg" alt="Slide 6"></div>
+            <div class="slide"><img src="Images/Banner/image2.jpg" alt="Slide 6"></div>
+              
+    </div>
+        <button class="prev" onclick="prevSlide()">&#10094;</button>
+        <button class="next" onclick="nextSlide()">&#10095;</button>
+    </div>
+    
+   
+    <h1 class="head">Upcoming Matches</h1>
+    <section class="matches">
+
+        <div>
+            <div class="team1">
+
+                <img src="Images/rcb_logo.png" alt="RCB">
+                <p>VS</p>
+                <img src="Images/rr_logo.png" alt="rr">
+            </div>
+            <div class="time">
+                <strong>MAY, WED 22</strong> <i class="fa-solid fa-moon"></i></i>7:30 pm IST
+            </div>
+
+            <a href="match.html"><button class="btn">Past Matches <i class="fa-solid fa-arrow-right"></i></button></a>
+
+        </div>
+    </section>
+    <section class="rcb_players">
+        <h1 class="head">Players</h1>
+        <h1>BATTERS</h1>
+        <div class="players">
+
+            <div class="profile">
+                <img src="Images/du_plus.png" alt="Player 1">
+                <div class="profile-info">
+                    <h2>faf du plessis</h2>
+                </div>
+            </div>
+
+            <div class="profile">
+                <img src="Images/rajbut.png" alt="Player 1">
+                <div class="profile-info">
+                    <h2>rajat patidar</h2>
+                </div>
+            </div>
+
+            <div class="profile">
+                <img src="Images/virat.jpg" alt="Player 1">
+                <div class="profile-info">
+                    <h2>Virat Kohli</h2>
+                </div>
+            </div>
+
+            <div class="profile">
+                <img src="Images/anuj.png" alt="Player 2">
+                <div class="profile-info">
+                    <h2>anuj rawat</h2>
+                </div>
+            </div>
+            <div class="profile">
+                <img src="Images/dk.jpg" alt="Payer 2">
+                <div class="profile-info">
+                    <h2>Dinesh Karthik</h2>
+                </div>
+            </div>
+            <div class="profile">
+                <img src="Images/598.png" alt="Payer 2">
+                <div class="profile-info">
+                    <h2>suyash s prabhudessai</h2>
+                </div>
+            </div>
+            <div class="profile">
+                <img src="Images/will_jack.png" alt="Payer 2">
+                <div class="profile-info">
+                    <h2>will jacks</h2>
+                </div>
+            </div>
+
+            <div class="profile">
+                <img src="Images/saurav.png" alt="Payer 2">
+                <div class="profile-info">
+                    <h2>saurav chuahan</h2>
+                </div>
+            </div>
+
+        </div>
+         <a href="players.html"><button onclick="view()" class="btn">View More</button></a>
+        <div class="hide-players">
+            <h1>ALL - ROUNDERS</h1>
+            <div class="players">
+                <div class="profile">
+                    <img src="Images/glenn.png" alt="Player 1">
+                    <div class="profile-info">
+                        <h2>glenn maxwell</h2>
+                    </div>
+                </div>
+
+                <div class="profile">
+                    <img src="Images/mahipal.png" alt="Player 2">
+                    <div class="profile-info">
+                        <h2>mahipal lomror</h2>
+                    </div>
+                </div>
+                <div class="profile">
+                    <img src="Images/karn.png" alt="Payer 2">
+                    <div class="profile-info">
+                        <h2>karn sharma</h2>
+                    </div>
+                </div>
+                <div class="profile">
+                    <img src="Images/cameron.png" alt="Payer 2">
+                    <div class="profile-info">
+                        <h2>cameron green</h2>
+                    </div>
+                </div>
+                <div class="profile">
+                    <img src="Images/swapnil.png" alt="Payer 2">
+                    <div class="profile-info">
+                        <h2>swapnil</h2>
+                    </div>
+                </div>
+                <div class="profile">
+                    <img src="Images/mayank.png" alt="Payer 2">
+                    <div class="profile-info">
+                        <h2>mayank dagar</h2>
+                    </div>
+                </div>
+
+                <div class="profile">
+                    <img src="Images/manoj.png" alt="Payer 2">
+                    <div class="profile-info">
+                        <h2>manoj bhandage</h2>
+                    </div>
+                </div>
+            </div>
+
+            <h1>BOWLERS</h1>
+            <div class="players">
+                <div class="profile">
+                    <img src="Images/akash.png" alt="Player 1">
+                    <div class="profile-info">
+                        <h2>akash deep</h2>
+                    </div>
+                </div>
+
+                <div class="profile">
+                    <img src="Images/alsarri.png" alt="Player 2">
+                    <div class="profile-info">
+                        <h2>alzarri joseph</h2>
+                    </div>
+                </div>
+                <div class="profile">
+                    <img src="Images/lockie.png" alt="Payer 2">
+                    <div class="profile-info">
+                        <h2>lockie ferguson</h2>
+                    </div>
+                </div>
+                <div class="profile">
+                    <img src="Images/mohammed.png" alt="Payer 2">
+                    <div class="profile-info">
+                        <h2>mohammed siraj</h2>
+                    </div>
+                </div>
+                <div class="profile">
+                    <img src="Images/yash.png" alt="Payer 2">
+                    <div class="profile-info">
+                        <h2>yash dayal</h2>
+                    </div>
+                </div>
+
+                <div class="profile">
+                    <img src="Images/tom.png" alt="Payer 2">
+                    <div class="profile-info">
+                        <h2>tom curran</h2>
+                    </div>
+                </div>
+
+                <div class="profile">
+                    <img src="Images/reece.png" alt="Payer 2">
+                    <div class="profile-info">
+                        <h2>reece topley</h2>
+                    </div>
+                </div>
+
+
+                <div class="profile">
+                    <img src="Images/sharma.png" alt="Payer 2">
+                    <div class="profile-info">
+                        <h2>himanshu sharma</h2>
+                    </div>
+                </div>
+
+                <div class="profile">
+                    <img src="Images/rajan.png" alt="Payer 2">
+                    <div class="profile-info">
+                        <h2>rajan kumar</h2>
+                    </div>
+                </div>
+
+                <div class="profile">
+                    <img src="Images/vijay.png" alt="Payer 2">
+                    <div class="profile-info">
+                        <h2>vyshak vijay kumar</h2>
+                    </div>
+                </div>
+            </div>
+
+            <button onclick="hide()" class="btn">View less</button>
+
+        </div>
+    </section>
+    <section class="statistics">
+        <h1 class="head">Statistics</h1>
+        <div class="container">
+            <h2>Team Statistics</h2>
+            <div class="stats-table">
+                <table>
+                    <tr>
+                        <th>Season</th>
+                        <th>Matches Played</th>
+                        <th>Wins</th>
+                        <th>Losses</th>
+                        <th>Win Percentage</th>
+                    </tr>
+                    <tr>
+                        <td>2024</td>
+                        <td>14</td>
+                        <td>7</td>
+                        <td>7</td>
+                        <td>50%</td>
+                    </tr>
+                    <tr>
+                        <td>2023</td>
+                        <td>14</td>
+                        <td>7</td>
+                        <td>7</td>
+                        <td>50%</td>
+                    </tr>
+                    <tr>
+                        <td>2022</td>
+                        <td>14</td>
+                        <td>8</td>
+                        <td>6</td>
+                        <td>57.14%</td>
+                    </tr>
+                    <tr>
+                        <td>2021</td>
+                        <td>14</td>
+                        <td>9</td>
+                        <td>5</td>
+                        <td>64.29%</td>
+                    </tr>
+                    <tr>
+                        <td>2020</td>
+                        <td>14</td>
+                        <td>7</td>
+                        <td>7</td>
+                        <td>50%</td>
+                    </tr>
+                    <tr>
+                        <td>2019</td>
+                        <td>14</td>
+                        <td>5</td>
+                        <td>8</td>
+                        <td>61.54%</td>
+                    </tr>
+
+                </table>
+            </div>
+
+    </section>
+    
+    <h1 class="head">Trending</h1>
+    <main class="news-section">
+        <div class="card">
+            <img src="Images/RCB news/rcb1.webp"
+                alt="img">
+            <div class="card-content">
+                <h3>TATA IPL 2024 Match 68 , RCB Vs CSK - Match Report</h3>
+                <p>Royal Challengers Bengaluru (RCB) sealed their qualification for the TATA Indian Premier League (IPL) 2024 playoffs with a dramatic 27-run win over Chennai Super Kings (CSK) at the M Chinnaswamy Stadium, Bengaluru.</p>
+                <a href="news.html">Read More</a>
+            </div>
+        </div>
+        
+        <div class="card">
+            <img src="Images/RCB news/rcb2.webp">
+            <div class="card-content">
+                <h3>Virat Kohli Fined For Slow Over-Rate</h3>
+                <p>Royal Challengers Bangalore captain Virat Kohli has been fined after his team maintained a slow over rate during their VIVO Indian Premier League (IPL) 2021 match against Chennai Super Kings at the Wankhede Stadium, Mumbai on April 25.</p>
+                <a href="news.html">Read More</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Images/RCB news/news3.webp">
+            <div class="card-content">
+                    <h3>IPL Reschedules KKR-RCB Match</h3>
+                    <p>Varun Chakaravarthy and Sandeep Warrier were found to be positive in the third round of testing in the last four days. All other team members have tested negative for COVID -19.</p>
+                <a href="news.html">Read More</a>
+            </div>
+        </div>
+        <div class="card">
+            <img src="Images/RCB news/news4.webp">
+            <div class="card-content">
+                <h3>TATA IPL 2024 Match 25 , MI Vs RCB - Match Report</h3>
+                <p>Mumbai Indians (MI) recorded their second win in the TATA Indian Premier League (IPL) 2024 with a seven-wicket triumph over the Royal Challengers Bengaluru (RCB) at the Wankhede Stadium. Led by Jasprit Bumrah’s second IPL fifer, MI restricted RCB to 196 on a good batting wicket. </p>
+                <a href="news.html">Read More</a>
+            </div>
+        </div>
+        
+    </main>
+     <footer> 
+            <h1>SPONSORS</h1>
+            <div class="sponsors">
+            <div class="sponsor">
+            <img src="Images/Sponsors/tata.svg" alt="" title="Tata">
+        </div>
+        <div class="sponsor">
+            <img src="Images/Sponsors/my11.svg" alt="">
+        </div>
+        <div class="sponsor">
+            <img src="Images/Sponsors/angelone.svg" alt="">
+        </div>
+        <div class="sponsor">
+            <img src="Images/Sponsors/rupay.svg" alt="">
+        </div>
+        <div class="sponsor">
+            <img src="Images/Sponsors/wonder.svg" alt="">
+        </div>
+        <div class="sponsor">
+            <img src="Images/Sponsors/star_sports.svg" alt="">
+        </div>
+        <div class="sponsor">
+            <img src="Images/Sponsors/jiocinema.svg" alt="">
+        </div>
+    </div>
+            <div class="footer-icon">
+                
+                <div class="contact-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="match.html">Matches</a></li>
+                    <li><a href="players.html">Players</a></li>
+                    <li><a href="statistics.html">Statistics</a></li>
+                    <li><a href="news.html">News</a></li>
+                </div>
+                <div class="contact-links">
+                    <a href="#">Tickets</a>
+                    <a href="#">Team</a>
+                    <a href="#">Photos</a>
+                    <a href="#">Accessibility</a>
+                    <a href="#">About us</a>
+                </div>
+                
+            <div class="icon">
+    <h5>Connect with RCB </h5>
+                <p class="youtube"><a href="https://www.youtube.com/channel/UCCq1xDJMBRF61kiOgU90_kw" target="_blank"><i class="fa-brands fa-youtube"></i></a></p>
+                <p class="instagram"><a href="https://www.instagram.com/royalchallengers.bengaluru/" target="_blank"><i class="fa-brands fa-instagram"></i></a></p>
+                <p class="facebook"><a href="https://www.facebook.com/RoyalChallengersBangalore/" target="_blank"><i class="fa-brands fa-facebook"></i></a></p>
+                <p class="twitter"><a href="https://x.com/rcbtweets?lang=en" target="_blank"><i class="fa-brands fa-twitter"></i></a></p>
+            </div>
+           
+            </div>
+        </footer>
+        <script src="script.js"></script>
+</body>
+
+</html>
